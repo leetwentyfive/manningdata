@@ -83,3 +83,7 @@ img {
     width: 100%;
     max-width: 100%;
 }
+
+.tableau-chart {
+    margin-bottom: 40px;
+}
