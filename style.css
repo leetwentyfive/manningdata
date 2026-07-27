@@ -30,7 +30,7 @@ img {
 
 .chart-row {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     align-items: flex-start;
     margin: 40px 0;
