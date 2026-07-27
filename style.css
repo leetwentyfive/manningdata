@@ -69,3 +69,17 @@ img {
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
+
+.wide-chart {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.wide-chart h3 {
+    text-align: left;
+}
+
+.wide-chart img {
+    width: 100%;
+    max-width: 100%;
+}
