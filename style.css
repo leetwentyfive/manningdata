@@ -109,3 +109,14 @@ img {
     font-style: italic;
     color: #555;
 }
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-grid img {
+    display: block;
+}
