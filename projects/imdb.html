@@ -1,1 +1,159 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IMDB Genre Evolution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+    
+<body>
+
+<!--<h2>Predicting Major League Baseball Outcomes Based on Which Team Scores First</h2>-->
+
+<h2 class="section-question">
+Genre Representation from the 1920s through the 2010s</h2>
+<p>
+<!--How much does scoring first actually influence the outcome of a Major League Baseball game? This project analyzes more than 65,000
+historical MLB games to evaluate how the timing and margin of initial leads affect win probability.-->
+
+</p>
+
+
+<!--TIMING CHARTS-->
+
+
+
+<div class="chart-row">
+
+    <div class="chart">
+        <a href="../images/IMDB/Top1k evolution.png" target="_blank">
+            <img src="../images/IMDB/Top1k evolution.png"
+                 alt="Top1k genre share">
+        </a>
+        <p class="ital-observation">Several genres have had ebbs and flows in representation over the past century </p>
+    </div>
+
+    <div class="chart">
+        <a href="../images/IMDB/Top500 evolution.png" target="_blank">
+            <img src="../images/IMDB/Top500 evolution.png"
+                 alt="Top500 evolution">
+        </a>
+        <p class="ital-observation">Drama maintained the highest genre share in all but one decade of the Top 500</p>
+    </div>
+
+</div>
+
+    <!--LEAD SIZE-->
+     
+<div class="chart-row">
+
+    <div class="chart">
+        <a href="../images/IMDB/Top250 evolution.png" target="_blank">
+            <img src="../images/IMDB/Top250 evolution.png"
+                 alt="Top250 evolution">
+        </a>
+        <p class="ital-observation">The Top 250 is where many genres oscillate up and down between decades</p>
+    </div>
+
+     <div class="chart">
+        <a href="../images/IMDB/Top100 evolution.png" target="_blank">
+            <img src="../images/IMDB/Top100 evolution.png"
+                 alt="Top100 evolution">
+        </a>
+        <p class="ital-observation">The most selective tier highlights genre peaks coinciding with world events and historic eras in film</p>
+    </div>
+
+</div>
+    <h3>Representation changes:</h3>
+    <ul>
+    <li>Comedy's biggest decade coincides with Charlie Chaplin comedies relating to the Great Depression</li>
+    <li>Drama, already a dominant force, sees a peak in the 1970s, as the New Hollywood movement hits its heights</li>
+    <li>Action movies peak in the 1980s, which was a decade of new highs for blockbuster Action franchises</li>
+</ul>
+<br>
+    
+    
+
+
+
+
+<!--LINE CHART OF INITIAL LEAD SIZES + INNINGS-->
+    <hr class="section-divider">
+    
+<h2>Interactive Dashboard</h2>
+
+<p>
+Explore the machine learning predictions interactively. Hover over specific inning and lead size combinations to see predicted win probabilities.
+</p>
+
+    
+<div class='tableauPlaceholder' id='viz1785179838805' style='position: relative'><noscript><a href='#'><img alt='Win Probability by Initial Lead Size and Inning '
+src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wi&#47;WinOddsbyinitialmargin&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object
+class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param
+name='site_root' value='' /><param name='name' value='WinOddsbyinitialmargin&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param 
+name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wi&#47;WinOddsbyinitialmargin&#47;Sheet1&#47;1.png' /> <param name='animate_transition' 
+value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param 
+name='display_count' value='yes' /><param name='language' value='en-US' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1785179838805'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=
+(divElement.offsetWidth*0.5625)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
+
+<p class="tableau-observation">The zigzag pattern illustrates the influence of home-field advantage between top and bottom halves of innings</p>
+    </div>
+    
+<!--<hr class="section-divider">-->
+    
+<!--HEAT MAP-->
+    
+<!--<h3>Machine Learning Heat Map</h3>-->
+<div class="tableau-chart">
+<div class='tableauPlaceholder' id='viz1785186331653' style='position: relative'><noscript><a href='#'><img alt='Initial Lead Size and Inning Heatmap ' 
+src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RevisedHeatmap_17851863140420&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object 
+class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param 
+name='site_root' value='' /><param name='name' value='RevisedHeatmap_17851863140420&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param 
+name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RevisedHeatmap_17851863140420&#47;Sheet2&#47;1.png' /> <param 
+name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var 
+divElement = document.getElementById('viz1785186331653');                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <p class="tableau-observation">Larger and later first leads substantially increased expected win probability</p>
+
+</div>
+
+    
+    <!--FINDINGS AND LINKS-->
+    <hr class="section-divider">
+<h3>Research Questions</h3>
+
+<ul>
+<li>Does scoring first in a Major League Baseball game increase a team's chances of winning?</li>
+<li>Can game outcomes be predicted based on the inning and size of the first lead?</li>
+</ul>
+
+    
+<h2>Key Findings</h2>
+
+<ul>
+    <li>The team that scores first wins approximately two-thirds of MLB games.</li>
+    <li>Early scoring provides a measurable advantage, but win probability depends heavily on inning and run differential.</li>
+    <li>Machine learning predictions were cautious in the early innings but increasingly reflected historical expectations as games progressed.</li>
+</ul>
+
+<h2>Project Repository</h2>
+
+<p>
+    <a href="https://github.com/leetwentyfive/MLB_Scoring_First_Win_Probabilities" target="_blank">
+        View the complete code and documentation on GitHub
+    </a>
+</p>
+    
+<p>
+<a href="../index.html">← Back to Portfolio</a>
+</p>
+
+</body>
+
+</html>
