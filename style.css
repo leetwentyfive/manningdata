@@ -132,3 +132,17 @@ img {
     display: block;
     margin: 0;
 }
+
+
+.case-studies {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.case-studies img {
+    width: 280px;
+    height: auto;
+    display: block;
+}
