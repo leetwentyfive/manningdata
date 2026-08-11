@@ -147,3 +147,41 @@ img {
     display: block;
 }
 
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 3%;
+}
+
+.header-identity h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.header-identity p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.header-rule {
+    height: 3px;
+    margin: 0 3% 35px;
+    background-color: #2563a6;
+}
