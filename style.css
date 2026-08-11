@@ -113,7 +113,7 @@ img {
 .project-grid {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
