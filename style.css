@@ -151,20 +151,19 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 3%;
+    margin: 10px 3%;
 }
 
 .header-identity h1 {
     margin: 0;
-        font-family: 'Lato', sans-serif;
     font-size: 36px;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
 
 .header-identity p {
     margin: 5px 0 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .header-links {
@@ -184,6 +183,6 @@ img {
 
 .header-rule {
     height: 3px;
-    margin: 0 3% 5px;
+    margin: 0 3% 35px;
     background-color: #2563a6;
 }
