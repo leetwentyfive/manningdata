@@ -169,7 +169,7 @@ img {
 
 .header-links {
     display: flex;
-    gap: 5px;
+    gap: 24px;
 }
 
 .header-links a {
