@@ -151,7 +151,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .header-identity h1 {
